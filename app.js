@@ -12,13 +12,13 @@ app.use(express.static(__dirname + "/public"));
 // Vistas
 app.get("/", (req, res) => {
     res.render("index", {
-        titulo: "Inicio"
+        titulo: "HRCweb"
     });
 });
 
-app.get("/nosotros", (req, res) => {
-    res.render("nosotros", {
-        titulo: "Quien soy"
+app.get("/software", (req, res) => {
+    res.render("software", {
+        titulo: "HRCweb - Software"
     });
 });
 
